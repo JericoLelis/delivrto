@@ -1,3 +1,6 @@
+console.log("HEELO BOY!");
+
+
 var campaign_templates=null;let global_recipe_id=""
 let hover_over="#e3e3e3"
 var selected_template="";const currentDate=new Date();const dateThirtyDaysAgo=new Date(currentDate);dateThirtyDaysAgo.setDate(currentDate.getDate()-30);const epochTimeThirtyDaysAgo=Math.floor(dateThirtyDaysAgo.getTime()/1000);$("#campaign-teplates").hide()
